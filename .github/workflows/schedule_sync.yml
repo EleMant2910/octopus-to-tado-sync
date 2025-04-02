@@ -1,6 +1,7 @@
 name: Run Tado-Octopus Script
 
 on:
+  workflow_dispatch:
   schedule:
     # Runs every day at 7am GMT
     - cron: '0 7 * * *'
